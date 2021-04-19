@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.vending {
+    display: flex;
+    flex-direction: column;
+}
+.price {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 1%;
+}
+
+.coins{
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+}
+
+.coin {
+    border-radius: 50%;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.penny {
+    background-color: rgba(182, 136, 99, 0.966);
+    height: 60px;
+    width: 60px;
+}
+
+.nickel {
+    height: 90px;
+    width: 90px;
+}
+
+.dime  {
+    height: 50px;
+    width: 50px;
+}
+
+.quarter {
+    height: 120px;
+    width: 120px;
+}
+
+
+/* Light Bulb */
+.off {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.lightBulb .toggle {
+    background-color: black;
+    color: white;
+}
+
+.en {
+
+}
