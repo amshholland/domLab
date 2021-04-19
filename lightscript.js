@@ -1,20 +1,20 @@
-const on = document.getElementById("on").addEventListener('click', light);
-const off = document.getElementById("off").addEventListener('click', light);
-const toggle = document.getElementById("toggle").addEventListener('click', light);
-const end = document.getElementById("end").addEventListener('click', light);
+const on = document.getElementById("on");
+const off = document.getElementById("off");
+const toggle = document.getElementById("toggle");
+const end = document.getElementById("end");
 const lightBulb = document.getElementById("lightBulb");
 
-function light() {
-    turnOff(() => {
-        lightBulb.classList.add('off');
-    });
-    lightBulb.classList.remove('lightBulb toggle')
+on.addEventListener('click', () => {
+    lightBulb.classList.remove('off');
 
-    toggle(() => {
-        lightBulb.classList.toggle('toggle');
-    });
+});
+off.addEventListener('click', () => {
+    lightBulb.classList.add('off');
 
-    end(() => {
-        lightBulb.lightBulb.remove();
-    });
-}
+});
+toggle.addEventListener('click', () => {
+    lightBulb.classList.toggle('off')
+});
+end.addEventListener('click', () => {
+    lightBulb.remove();
+});

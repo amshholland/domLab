@@ -25,6 +25,7 @@ body {
 
 .coin {
     border-radius: 50%;
+    align-items: center;
 }
 
 .silver {
@@ -64,8 +65,4 @@ body {
 .lightBulb .toggle {
     background-color: black;
     color: white;
-}
-
-.en {
-
 }
